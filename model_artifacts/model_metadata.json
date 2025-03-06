@@ -1,0 +1,62 @@
+{
+    "features": [
+        "Internal_temperature_of_battery",
+        "BMS_PCB_board_surface_temperature",
+        "SOC",
+        "Total_current",
+        "voltage_std",
+        "voltage_range",
+        "tempDiff",
+        "capacityUtilization",
+        "cellVoltageRange",
+        "cellVoltageStd",
+        "Mileage",
+        "Speed_information",
+        "Total_charged_capacity",
+        "Total_discharged_capacity",
+        "Total_voltage",
+        "times_100_of_battery_capacity",
+        "cycle_duration_hours",
+        "SOC_change",
+        "hour",
+        "dayOfWeek",
+        "month",
+        "cellVoltageMin",
+        "cellVoltageMax",
+        "cellVoltageAvg",
+        "normalizedTotalVoltage",
+        "Location_type",
+        "Battery_status",
+        "BMS_switch_C_FET_state",
+        "BMS_switch_D_FET_state",
+        "alarmDesc",
+        "fetStateCombo"
+    ],
+    "categorical_features": [
+        "Location_type",
+        "Battery_status",
+        "BMS_switch_C_FET_state",
+        "BMS_switch_D_FET_state",
+        "alarmDesc",
+        "fetStateCombo"
+    ],
+    "target_variable": "Number_of_cycles",
+    "alert_thresholds": {
+        "temperature": {
+            "threshold": 50,
+            "description": "Exceeded maximum safe temperature"
+        },
+        "voltage_std": {
+            "threshold": 0.1,
+            "description": "High voltage standard deviation indicates potential cell imbalance"
+        },
+        "soc": {
+            "threshold": 20,
+            "description": "Low state of charge might indicate battery performance issues"
+        }
+    },
+    "model_performance": {
+        "mean_squared_error": 0.006627050410112529,
+        "r2_score": 0.9988698950671805
+    }
+}
