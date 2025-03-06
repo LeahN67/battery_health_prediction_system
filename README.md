@@ -27,7 +27,7 @@ The system analyzes battery performance metrics to predict battery health and pr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/battery-health-prediction.git
+   git clone https://github.com/LeahN67/battery_health_prediction_system.git
    cd battery-health-prediction
    ```
 
