@@ -1,0 +1,20 @@
+BATTERY SWAP DATASET: KEY INSIGHTS
+========================================
+
+Total records analyzed: 17059
+Unique batteries: 731
+Date range: 2024-02-02 to 2024-03-02
+
+Complete cycles: 14921 (87.47%)
+
+Key Metrics:
+- Average cycle duration: 25.59 hours
+- Average SOC change: 66.53%
+- Overall charging rate: 2.60 SOC points per hour
+
+Optimal charging hours (by charging rate):
+- Hour 3.0: 39.08 SOC points/hour
+- Hour 16.0: 14.61 SOC points/hour
+- Hour 0.0: 14.23 SOC points/hour
+- Hour 23.0: 14.19 SOC points/hour
+- Hour 1.0: 13.77 SOC points/hour
