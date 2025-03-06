@@ -1,0 +1,34 @@
+Original battery data shape: (2836942, 48)
+Original swap data shape: (17059, 8)
+Filtering for battery IDs starting with 'B'...
+Filtered battery data shape: (2794434, 48)
+Filtered swap data shape: (17059, 8)
+Converting date columns to datetime and standardizing timezones...
+Battery data has timezone info. Converting to UTC and then to naive datetime.
+NaT values in battery _time: 2687
+NaT values in swap_out_date: 1069
+NaT values in swap_in_date: 1069
+Complete swap cycles: 15990 out of 17059
+Merging datasets - using safe datetime comparison approach...
+Matching battery readings to swap cycles...
+Matched 413734 battery readings to swap cycles
+Merge complete. Final dataset shape: (2794434, 53)
+Saving merged data to: C:\Users\HP\Documents\battery\merged_data\final_merged_dataset.csv
+
+Sample of merged data:
+                    _time battery_id  BMS_PCB_board_surface_temperature  ...  swap_in_date  cycle_duration_hours  SOC_change
+0 2024-02-06 10:16:59.899    BGU9001                               31.0  ...          None                  None        None
+1 2024-02-06 10:27:01.170    BGU9001                               31.0  ...          None                  None        None
+2 2024-02-06 10:47:00.194    BGU9001                               31.0  ...          None                  None        None
+3 2024-02-06 11:07:02.296    BGU9001                               31.0  ...          None                  None        None
+4 2024-02-06 11:27:00.770    BGU9001                               32.0  ...          None                  None        None
+
+[5 rows x 53 columns]
+
+Total battery readings: 2794434
+Readings within swap cycles: 413734
+Percentage: 14.81%
+
+Unique battery IDs in battery dataset: 119
+Unique battery IDs in swap dataset: 731
+Battery IDs in both datasets: 31
