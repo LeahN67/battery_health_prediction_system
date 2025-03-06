@@ -28,22 +28,22 @@ The system analyzes battery performance metrics to predict battery health and pr
 1. Clone the repository:
    ```bash
    git clone https://github.com/LeahN67/battery_health_prediction_system.git
-   cd battery-health-prediction
+   cd battery_health_prediction_system
    ```
 
 2. Create a Python virtual environment:
    ```bash
-   python -m venv venv
+   python -m venv <environment_name>
    ```
 
 3. Activate the virtual environment:
    - Windows:
      ```bash
-     venv\Scripts\activate
+     <environment_name>\Scripts\activate
      ```
    - macOS/Linux:
      ```bash
-     source venv/bin/activate
+     source <environment_name>/bin/activate
      ```
 
 4. Install the required packages:
@@ -55,39 +55,39 @@ The system analyzes battery performance metrics to predict battery health and pr
 
 ### Battery Dataset
 
-1. Navigate to the battery data processing scripts:
+1. Navigate to the battery data  scripts folder:
    ```bash
    cd battery_data
    ```
 
 2. Run the data preparation script:
    ```bash
-   python prepare_battery_data.py
+   python prep_battery_data.py
    ```
    This script processes raw battery data, performs cleaning, and creates a structured dataset for analysis.
 
 3. Run the EDA script:
    ```bash
-   python battery_eda.py
+   python eda_battery_dataset.py
    ```
    This script performs exploratory data analysis on the battery dataset, generating visualizations for battery performance metrics.
 
 ### Swap Dataset
 
-1. Navigate to the swap data processing scripts:
+1. Navigate to the swap data processing scripts folder:
    ```bash
    cd swap_data
    ```
 
 2. Run the data preparation script:
    ```bash
-   python prepare_swap_data.py
+   python prep_swap_data.py
    ```
    This script processes the swap in and swap out event data, aligns timestamps, and structures the data for analysis.
 
 3. Run the EDA script:
    ```bash
-   python swap_eda.py
+   python eda_swap_datasets.py
    ```
    This script performs exploratory data analysis on the swap dataset, generating visualizations for swap patterns and related metrics.
 
@@ -95,13 +95,13 @@ The system analyzes battery performance metrics to predict battery health and pr
 
 1. Run the dataset merging script:
    ```bash
-   python merge_datasets.py
+   python merge_data.py
    ```
    This script merges the battery and swap datasets based on battery IDs and timestamps.
 
 2. Run the merged EDA script:
    ```bash
-   python merged_eda.py
+   python eda_merged_dataset.py
    ```
    This script performs exploratory data analysis on the merged dataset, generating visualizations for comprehensive battery performance analysis.
 
@@ -158,18 +158,18 @@ battery-health-prediction/
 │   ├── battery_health_model.joblib
 │   └── model_metadata.json
 ├── battery_data/              # Battery data processing scripts
-│   ├── prepare_battery_data.py
-│   ├── battery_eda.py
-│   └── data/                  # Raw and processed battery data
+│   ├── prep_battery_dataset.py
+│   ├── eda_battery_dataset.py
+│   └── battery_visualisations/                  # Visualisations of the battery data
 ├── swap_data/                 # Swap data processing scripts
-│   ├── prepare_swap_data.py
-│   ├── swap_eda.py
-│   └── data/                  # Raw and processed swap data
+│   ├── prep_swap_data.py
+│   ├── eda_swap_datasets.py
+│   └── swap_visualisations/                  # Visualisations of the swap data
 └── merged_data/               # Merged dataset and processing scripts
-    ├── merge_datasets.py
-    ├── merged_eda.py
+    ├── eda_merge_dataset.py
+    ├── merge_eda.py
     ├── feature_engineering.py
-    └── enhanced_battery_data.csv
+    
 ```
 
 ## Data Description
