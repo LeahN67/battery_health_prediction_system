@@ -1,0 +1,113 @@
+Dataset Shape: (2836942, 48)
+
+Data Types:
+_time                                          object
+devId                                          object
+BMS_PCB_board_surface_temperature             float64
+BMS_switch_C_FET_state                        float64
+BMS_switch_D_FET_state                        float64
+Battery_control                               float64
+Battery_status                                float64
+Cell_series_numbe_23_series                   float64
+Internal_temperature_of_battery               float64
+Location_type                                  object
+Mileage                                       float64
+Number_of_cycles                              float64
+SOC                                           float64
+Speed_information                             float64
+Surface_temperature_in_the_middle_of_cells    float64
+Total_charged_capacity                        float64
+Total_current                                 float64
+Total_discharged_capacity                     float64
+Total_voltage                                 float64
+alarmDesc                                      object
+alarmFlag                                     float64
+alarmTime                                      object
+cell_voltage_1                                float64
+cell_voltage_10                               float64
+cell_voltage_11                               float64
+cell_voltage_12                               float64
+cell_voltage_13                               float64
+cell_voltage_14                               float64
+cell_voltage_15                               float64
+cell_voltage_16                               float64
+cell_voltage_17                               float64
+cell_voltage_18                               float64
+cell_voltage_19                               float64
+cell_voltage_2                                float64
+cell_voltage_20                               float64
+cell_voltage_21                               float64
+cell_voltage_22                               float64
+cell_voltage_23                               float64
+cell_voltage_24                               float64
+cell_voltage_3                                float64
+cell_voltage_4                                float64
+cell_voltage_5                                float64
+cell_voltage_6                                float64
+cell_voltage_7                                float64
+cell_voltage_8                                float64
+cell_voltage_9                                float64
+id                                             object
+times_100_of_battery_capacity                 float64
+
+Summary Statistics:
+       BMS_PCB_board_surface_temperature  BMS_switch_C_FET_state  BMS_switch_D_FET_state  Battery_control  Battery_status  Cell_series_numbe_23_series  Internal_temperature_of_battery       Mileage  Number_of_cycles           SOC  Speed_information  Surface_temperature_in_the_middle_of_cells  Total_charged_capacity  Total_current  Total_discharged_capacity  Total_voltage     alarmFlag  cell_voltage_1  cell_voltage_10  cell_voltage_11  cell_voltage_12  cell_voltage_13  cell_voltage_14  cell_voltage_15  cell_voltage_16  cell_voltage_17  cell_voltage_18  cell_voltage_19  cell_voltage_2  cell_voltage_20  cell_voltage_21  cell_voltage_22  cell_voltage_23  cell_voltage_24  cell_voltage_3  cell_voltage_4  cell_voltage_5  cell_voltage_6  cell_voltage_7  cell_voltage_8  cell_voltage_9  times_100_of_battery_capacity
+count                       4.084040e+05            2.836942e+06            2.836942e+06     2.836942e+06    2.836942e+06                 8.816200e+04                     4.074200e+05  3.904970e+05      8.888700e+04  2.230866e+06       3.893430e+05                                4.051140e+05            9.048800e+04   2.836942e+06               8.658500e+04   1.842230e+06  2.836942e+06    2.040930e+05     2.035850e+05     2.034410e+05     2.031530e+05     2.031540e+05     2.028830e+05     2.027340e+05     2.025280e+05     2.024370e+05     2.021830e+05     2.021090e+05    2.019070e+05     2.017130e+05     2.014600e+05     2.013050e+05     2.010500e+05     1.989020e+05    2.007610e+05    2.006150e+05    2.004220e+05    2.003140e+05    1.999600e+05    1.998470e+05    1.990920e+05                  198772.000000
+mean                        6.692009e+07            1.204256e+07            7.826183e+06     1.083945e+07    5.419035e+06                 3.293707e+08                     6.708719e+07  5.250477e+07      2.882510e+08  1.301974e+07       6.141992e+07                                3.794540e+07            3.398288e+08   7.226262e+06               2.367429e+09   3.208362e+08  6.503217e+07    4.277587e+03     3.462799e+03     3.492623e+03     3.369773e+03     3.377244e+03     3.375334e+03     3.394953e+03     3.361043e+03     3.385438e+03     3.341492e+03     3.380917e+03    3.379718e+03     3.355888e+03     3.356051e+03     3.370731e+03     3.381681e+03     3.367051e+03    3.345622e+03    3.390893e+03    3.360847e+03    3.899027e+03    5.028505e+03    3.402235e+03    3.842381e+03                    1790.045887
+std                         1.069136e+10            4.535520e+09            3.655966e+09     4.303228e+09    3.042459e+09                 2.371709e+10                     1.070514e+10  9.471288e+09      2.218757e+10  4.716397e+09       1.024245e+10                                8.050466e+09            2.409227e+10   3.513557e+09               6.354904e+10   2.340809e+10  1.053982e+10    3.124890e+04     1.271446e+04     1.382738e+04     8.290918e+03     9.137289e+03     8.869202e+03     9.919520e+03     8.001723e+03     9.417469e+03     6.665264e+03     9.160164e+03    8.891156e+03     7.703537e+03     7.708356e+03     8.621339e+03     9.183669e+03     8.379053e+03    6.687355e+03    9.461060e+03    7.728727e+03    2.443784e+04    4.150874e+04    1.023789e+04    2.325474e+04                    1101.440194
+min                        -4.340000e+02           -7.800000e+01           -1.139000e+03    -2.369000e+03   -1.984000e+03                -2.530000e+03                    -1.830000e+02 -3.218000e+03     -2.971000e+03 -3.899000e+03      -3.774000e+03                               -1.473000e+03           -3.253000e+03  -6.124000e+03               0.000000e+00   0.000000e+00  0.000000e+00    3.000000e+00     3.000000e+00     3.000000e+00     3.000000e+00     3.000000e+00     0.000000e+00     3.000000e+00     3.000000e+00     2.000000e+00     3.000000e+00     0.000000e+00    3.000000e+00     3.000000e+00     3.000000e+00     3.000000e+00     0.000000e+00     3.000000e+00    3.000000e+00    3.000000e+00    3.000000e+00    0.000000e+00    0.000000e+00    0.000000e+00    0.000000e+00                       0.000000
+25%                         2.900000e+01            0.000000e+00            0.000000e+00     0.000000e+00    0.000000e+00                 2.400000e+01                     2.700000e+01  1.000000e+00      1.000000e+00  2.100000e+01       0.000000e+00                                2.700000e+01            5.300000e+01   0.000000e+00               3.400000e+01   7.785000e+03  0.000000e+00    3.239000e+03     3.239000e+03     3.240000e+03     3.239000e+03     3.233000e+03     3.234000e+03     3.234000e+03     3.234000e+03     3.234000e+03     3.234000e+03     3.235000e+03    3.239000e+03     3.234000e+03     3.235000e+03     3.235000e+03     3.235000e+03     3.234000e+03    3.239000e+03    3.239000e+03    3.239000e+03    3.240000e+03    3.240000e+03    3.239000e+03    3.239000e+03                     504.000000
+50%                         3.000000e+01            0.000000e+00            0.000000e+00     0.000000e+00    0.000000e+00                 2.400000e+01                     2.800000e+01  1.080000e+02      2.000000e+00  8.600000e+01       0.000000e+00                                2.800000e+01            5.800000e+01   0.000000e+00               8.500000e+01   7.981000e+03  0.000000e+00    3.325000e+03     3.326000e+03     3.326000e+03     3.325000e+03     3.324000e+03     3.324000e+03     3.324000e+03     3.324000e+03     3.324000e+03     3.324000e+03     3.324000e+03    3.325000e+03     3.324000e+03     3.324000e+03     3.324000e+03     3.324000e+03     3.324000e+03    3.326000e+03    3.326000e+03    3.326000e+03    3.326000e+03    3.326000e+03    3.326000e+03    3.326000e+03                    2326.000000
+75%                         3.200000e+01            0.000000e+00            0.000000e+00     0.000000e+00    0.000000e+00                 2.400000e+01                     3.000000e+01  3.060000e+02      4.000000e+00  1.000000e+02       1.500000e+01                                3.100000e+01            1.180000e+02   0.000000e+00               1.350000e+02   7.994000e+03  0.000000e+00    3.332000e+03     3.332000e+03     3.332000e+03     3.332000e+03     3.330000e+03     3.330000e+03     3.330000e+03     3.330000e+03     3.330000e+03     3.330000e+03     3.331000e+03    3.332000e+03     3.330000e+03     3.330000e+03     3.330000e+03     3.330000e+03     3.330000e+03    3.332000e+03    3.332000e+03    3.332000e+03    3.332000e+03    3.332000e+03    3.332000e+03    3.332000e+03                    2836.000000
+max                         1.709002e+12            1.709207e+12            1.709239e+12     1.709275e+12    1.709200e+12                 1.709147e+12                     1.709256e+12  1.709248e+12      1.709284e+12  1.709275e+12       1.709160e+12                                1.709008e+12            1.709283e+12   1.709224e+12               1.709323e+12   1.709321e+12  1.709308e+12    1.003001e+06     1.002001e+06     1.003001e+06     1.002001e+06     1.003001e+06     1.002001e+06     1.002001e+06     1.002001e+06     1.002001e+06     1.003001e+06     1.003001e+06    1.003001e+06     1.002001e+06     1.002001e+06     1.002001e+06     1.002001e+06     1.002001e+06    1.002001e+06    1.003001e+06    1.003001e+06    1.003001e+06    1.003001e+06    1.002001e+06    1.003001e+06                    3604.000000
+
+Missing Values:
+_time                                           25147
+devId                                           35720
+BMS_PCB_board_surface_temperature             2428538
+BMS_switch_C_FET_state                              0
+BMS_switch_D_FET_state                              0
+Battery_control                                     0
+Battery_status                                      0
+Cell_series_numbe_23_series                   2748780
+Internal_temperature_of_battery               2429522
+Location_type                                 2440563
+Mileage                                       2446445
+Number_of_cycles                              2748055
+SOC                                            606076
+Speed_information                             2447599
+Surface_temperature_in_the_middle_of_cells    2431828
+Total_charged_capacity                        2746454
+Total_current                                       0
+Total_discharged_capacity                     2750357
+Total_voltage                                  994712
+alarmDesc                                     2720529
+alarmFlag                                           0
+alarmTime                                     2720673
+cell_voltage_1                                2632849
+cell_voltage_10                               2633357
+cell_voltage_11                               2633501
+cell_voltage_12                               2633789
+cell_voltage_13                               2633788
+cell_voltage_14                               2634059
+cell_voltage_15                               2634208
+cell_voltage_16                               2634414
+cell_voltage_17                               2634505
+cell_voltage_18                               2634759
+cell_voltage_19                               2634833
+cell_voltage_2                                2635035
+cell_voltage_20                               2635229
+cell_voltage_21                               2635482
+cell_voltage_22                               2635637
+cell_voltage_23                               2635892
+cell_voltage_24                               2638040
+cell_voltage_3                                2636181
+cell_voltage_4                                2636327
+cell_voltage_5                                2636520
+cell_voltage_6                                2636628
+cell_voltage_7                                2636982
+cell_voltage_8                                2637095
+cell_voltage_9                                2637850
+id                                            2723189
+times_100_of_battery_capacity                 2638170
+
